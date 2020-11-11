@@ -20,11 +20,11 @@ module.exports = {
     extensions: ['.js'],
   },
   plugins: [
-    new HtmlWebpackPlugin( {
-      template: path.resolve(__dirname,'./public/index.html'),
-      filename: './index.html'
-    })
-  ]
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './public/index.html'),
+      filename: './index.html',
+    }),
+  ],
 }
 
 //webpack 파일을 모아주는 것

@@ -7,12 +7,11 @@
     "lint": "eslint .",
     "prettier": "prettier .",
     "build": "webpack",
-    "dev": "webpack-dev-server —-config ./webpack.config.js —-mode development"
+    "dev": "webpack serve --mode development --env development"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "html-webpack-plugin": "^4.5.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -33,9 +32,10 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-standard": "^4.0.2",
+    "html-webpack-plugin": "^4.5.0",
     "prettier": "^2.1.2",
     "webpack": "^5.4.0",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   }
 }

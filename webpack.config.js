@@ -25,6 +25,13 @@ module.exports = {
       filename: './index.html',
     }),
   ],
+  devServer: {
+    contentBase: path.resolve(__dirname, 'dist'),
+    inline: true,
+    hot: true,
+    open: true,
+    historyApiFallback: true,
+  },
 }
 
 //webpack 파일을 모아주는 것
